@@ -2,7 +2,7 @@
 
 set -eu
 
-pkgs=(build-essential curl git python3 python3-pip python-is-python3 ripgrep)
+pkgs=(curl git ripgrep)
 
 for pkg in ${pkgs[@]}; do
 	pkg_full_name="$(apt -qq list --installed $pkg)"
