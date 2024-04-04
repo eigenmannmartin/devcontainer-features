@@ -6,8 +6,6 @@ This provides a list of features related to Neovim for Devcontainers
 
 - Neovim essentials
 - Neovim
-- AstroNvim
-- Lookatme (markdown presentation tool)
 
 ## How to use
 
