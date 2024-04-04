@@ -12,8 +12,8 @@ if [ $GIT = "true" ]; then
 	pkgs+=("git")
 fi
 
-if [ $BUILD_ESSENTIAL = "true" ]; then
-	pkgs+=("build-essential")
+if [ $FZF = "true" ]; then
+	pkgs+=("fzf")
 fi
 
 if [ $WGET = "true" ]; then

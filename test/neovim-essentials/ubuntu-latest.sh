@@ -2,7 +2,7 @@
 
 set -eu
 
-pkgs=(curl git ripgrep)
+pkgs=(fzf curl git ripgrep)
 
 for pkg in ${pkgs[@]}; do
 	pkg_full_name="$(apt -qq list --installed $pkg)"
