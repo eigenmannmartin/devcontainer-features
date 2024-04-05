@@ -24,6 +24,10 @@ if [ $CURL = "true" ]; then
 	pkgs+=("curl")
 fi
 
+if [ $BAT = "true" ]; then
+	pkgs+=("bat")
+fi
+
 if [ $RIPGREP = "true" ]; then
 	pkgs+=("ripgrep")
 fi

@@ -1,7 +1,7 @@
 {
   "name": "NeovimEssentials",
   "id": "neovim-essentials",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Provide essentials features for neovim for devcontainers",
   "options": {
     "git": {
@@ -17,6 +17,11 @@
     "fzf": {
       "type": "boolean",
       "description": "If true, fzf will be installed",
+      "default": true
+    },
+    "bat": {
+      "type": "boolean",
+      "description": "If true, bat will be installed",
       "default": true
     },
     "ripgrep": {
