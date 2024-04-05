@@ -17,6 +17,7 @@ Provide essentials features for neovim for devcontainers
 |-----|-----|-----|-----|
 | git | If true, git will be installed | boolean | true |
 | curl | If true, curl will be installed | boolean | true |
+| fzf | If true, fzf will be installed | boolean | true |
 | ripgrep | If true, ripgrep will be installed | boolean | true |
 
 
