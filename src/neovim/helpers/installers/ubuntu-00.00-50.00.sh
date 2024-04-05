@@ -26,6 +26,8 @@ rm -rf nvim-linux64/share
 cp --recursive --update --verbose nvim-linux64/lib/* /usr/local/lib
 rm -rf nvim-linux64/lib
 
-# copy man pages
-cp --recursive --update --verbose nvim-linux64/man/* /usr/local/man
-rm -rf nvim-linux64/man
+if [[ ${NVIM_VERSION} != "nightly" ]];then
+  # copy man pages
+  cp --recursive --update --verbose nvim-linux64/man/* /usr/local/man
+  rm -rf nvim-linux64/man
+fi
