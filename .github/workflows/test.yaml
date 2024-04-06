@@ -35,11 +35,6 @@ jobs:
         features:
           - neovim-essential
           - neovim
-          - astronvim
-          - jdk21
-          - jdk19
-          - gradle
-          - maven
         baseImage:
           - ubuntu:latest
           - mcr.microsoft.com/devcontainers/base:ubuntu
