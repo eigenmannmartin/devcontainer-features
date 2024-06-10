@@ -1,0 +1,10 @@
+{
+  "name": "XDG-OPEN",
+  "id": "xdg-open",
+  "version": "0.1.0",
+  "description": "Allows to open urls from devcontainer",
+  "options": {},
+  "containerEnv": {
+      "BROWSER": "remote-open.sh"
+  }
+}
