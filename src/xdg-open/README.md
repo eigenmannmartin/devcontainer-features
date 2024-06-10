@@ -1,7 +1,7 @@
 
-# Neovim (neovim)
+# XDG-OPEN (xdg-open)
 
-Provide neovim features for devcontainers
+Allows to open urls from devcontainer
 
 ## Example Usage
 
@@ -15,10 +15,10 @@ Provide neovim features for devcontainers
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Select the neovim version you want to install as present in GitHub Releases | string | stable |
+
 
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/eigenmannmartin/devcontainer-features/blob/main/src/neovim/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/eigenmannmartin/devcontainer-features/blob/main/src/xdg-open/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
