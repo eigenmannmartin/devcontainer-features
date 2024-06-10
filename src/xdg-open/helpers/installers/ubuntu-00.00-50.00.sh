@@ -3,4 +3,4 @@
 set -euxo pipefail
 
 apt update
-apt install -y netcat
+apt install -y netcat xdg-utils
