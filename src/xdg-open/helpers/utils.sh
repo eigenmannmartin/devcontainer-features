@@ -71,9 +71,10 @@ source_matching_installer() {
 
 		if [ $is_match -eq 1 ]; then
 			. "$installer"
+      exit 0
 		else
 			echo "No matching installer found for $curr_os $curr_os_version" >&2
-			exit 1
 		fi
 	done
+	exit 1
 }
